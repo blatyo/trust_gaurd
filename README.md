@@ -39,6 +39,7 @@ Also, I realize I misspelled guard as gaurd everywhere. Its just one of those wo
 ## Variables
 
 Some notes about varying these values:
+
 * When alpha > beta, history does not have as much significance as the current value. The opposite is also true.
 * When pos_gamma is large, it is easier to obtain a higher trust value over time. The authors that propose this algorithm suggest that it be hard to get a good reputation.
 * When pos_gamma is large, there is a large penalty for a bad reputation. The authors that propose this algorithm suggest that reputation be lost quickly if the raw trust history decreases radically.
