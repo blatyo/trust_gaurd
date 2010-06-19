@@ -6,7 +6,7 @@ Also, I realize I misspelled guard as gaurd everywhere. Its just one of those wo
 [1]: http://www.mathcs.emory.edu/~lxiong/research/pub/srivatsa05trustguard.pdf "TrustGaurd: Countering Vulnerabilities in Reputation Management for Decentralized Overlay Networks."
 
 ## Usage
-<code>
+
   require 'trust_gaurd'
   
   # current raw trust value gets 2/3rds of the importance
@@ -35,7 +35,6 @@ Also, I realize I misspelled guard as gaurd everywhere. Its just one of those wo
   # The rest gets a bit complicated...
   tv.calculate([100, 100, 95, 95])      #=> 87.15714285714287
   tv.calculate([100, 100, 95, 95, 77])  #=> 7.460000000000008
-</code>
 
 ## Variables
 
